@@ -1,0 +1,20 @@
+<app-header  title="Inicio"></app-header>
+
+
+
+
+<ion-content>
+  
+  <ion-button (click)="signOut()"  class="ion-margin-top">
+    Cerrar sesion
+</ion-button>
+
+  <!------Nuevo viaje------>>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button (click)="addUpdateTravel()">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+
+</ion-content>

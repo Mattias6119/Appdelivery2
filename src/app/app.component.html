@@ -1,0 +1,19 @@
+<ion-app>
+  <ion-menu contentId="main" side="start">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Menú</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-item [routerLink]="['/menu-profe']">
+          <ion-icon name="person" slot="start"></ion-icon>
+          Perfil
+        </ion-item>
+        <!-- Otras opciones de menú aquí -->
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="main"></ion-router-outlet>
+</ion-app>
